@@ -1,0 +1,24 @@
+{
+  "styles": {
+    "theme": "dark"
+  },
+  "components": {
+    "mdbook": {
+      "theme": true
+    },
+    "changelog": false,
+    "funding": {
+      "yml_path": ".github/FUNDING.yml"
+    }
+  },
+  "build": {
+    "dist_dir": "./public/",
+    "static_dir": "./static/",
+    "path_prefix": "test"
+  },
+  "project": {
+    "name": "test",
+    "repository": "https://github.com/shadows-withal/test",
+    "readme_path": "./README.md"
+  }
+}
